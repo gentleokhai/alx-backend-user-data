@@ -5,7 +5,7 @@ database table named "users"
 """
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import (
-    Column,        
+    Column,
     Integer,
     String,
 )
@@ -15,7 +15,7 @@ Base = declarative_base()
 
 class User(Base):
     """
-    Definition of class User 
+    Definition of class User
     """
     __tablename__ = "users"
 
